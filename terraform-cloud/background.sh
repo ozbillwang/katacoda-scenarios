@@ -1,7 +1,7 @@
 #!/usr/bin/env bashs 
 
-apt update
-apt install -y curl unzip
+#apt update
+#apt install -y curl unzip
 
 repo="hashicorp/terraform"
 latest=$(curl -s https://github.com/${repo}/releases/latest)

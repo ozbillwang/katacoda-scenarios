@@ -23,7 +23,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -33,6 +35,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "terraform"
+    "imageid": "ubuntu"
   }
 }
